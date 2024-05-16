@@ -12,7 +12,7 @@ This project implements a PID controller for a direct current (DC) motor using R
 ## Hardware Setup
 
 1. Connect the DC motor to the Arduino.
-2. Upload the .ino code to the Arduino using the Arduino IDE.
+2. Upload the ```arduino_code/final_challenge_arduino.ino``` code to the Arduino using the Arduino IDE.
 
 ## Software Setup
 
@@ -41,7 +41,7 @@ This project implements a PID controller for a direct current (DC) motor using R
 
 2. After running `final.launch`, the PID controller will be active.
 
-3. Change the parameters file to adjust the PID mode in `setPoin_file.yaml`:
+3. Change the parameters file to adjust the PID mode in `setPoint_file.yaml`:
     - `op`: Operation mode from 1 to 4. Where:
         1. Square signal
         2. Sinusoidal signal
