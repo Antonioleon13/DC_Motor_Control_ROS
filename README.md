@@ -18,7 +18,7 @@ This project implements a PID controller for a direct current (DC) motor using R
 
 1. Clone this repository into your workspace's `src` directory (e.g., `catkin_ws/src/`):
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Antonioleon13/DC_Motor_Control_ROS.git
     ```
 
 2. Navigate to your workspace directory (e.g., `catkin_ws`) and execute `catkin_make` to compile the package:
